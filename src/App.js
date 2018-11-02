@@ -29,7 +29,7 @@ class App extends Component {
     return (
       <div className="container">
         <center>
-          <h1>Daftar Pemain {this.state.nama}</h1>
+          <h1>Daftar Pemain bola {this.state.nama}</h1>
           <div className="row">
             <div className="col-md-8">
               <input className="form-control" ref="nama" type="text" onInput={()=>{this.klik();}}/>
